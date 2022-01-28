@@ -13,7 +13,7 @@ local cf = CFrame.new
 local v3 = Vector3.new
 local ca = CFrame.Angles
 local player = game.Players.LocalPlayer
-local pchar = player.Character.Reanimation
+local pchar = player.Character.Reanimate
 local torso = pchar.Torso
 local mouse = player:GetMouse()
 
@@ -670,4 +670,4 @@ function Align(Part0,Part1,Position,Angle)
     Count = Count + 1
 end
 Hat.Handle.AccessoryWeld:Destroy()
-Align(Hat.Handle,AlignChar.Reanimation.Model.Handle,Vector3.new(0,0,0),Vector3.new(0,90,55))
+Align(Hat.Handle,AlignChar.Reanimate.Model.Handle,Vector3.new(0,0,0),Vector3.new(0,90,55))
